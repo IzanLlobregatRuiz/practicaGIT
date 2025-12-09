@@ -28,12 +28,24 @@ namespace ejercicioTelegrama
             // 1. Leer datos del formulario
             // ============================
             string textoTelegrama = txtTelegrama.Text.Trim();
-            bool esUrgente = chkUrgente.Checked;
+            bool esUrgente;
+            if (rbtnUrgente.Checked)
+            {
+                esUrgente = true;
+            }
+            else if (rbtnOrdinario.Checked)
+            {
+                esUrgente = false;
+            }
+            else
+            {
+                esUrgente = false;
+            }
 
-            // ============================
-            // 2. Calcular número de palabras
-            // ============================
-            string[] palabras = textoTelegrama.Split(' ');
+                // ============================
+                // 2. Calcular número de palabras
+                // ============================
+                string[] palabras = textoTelegrama.Split(' ');
             int numPalabras = palabras.Length;
 
             // ============================
@@ -61,6 +73,11 @@ namespace ejercicioTelegrama
             // 5. Mostrar resultado
             // ============================
             txtPrecio.Text = coste.ToString("0.00") + " euros";
+        }
+
+        private void chkUrgente_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
