@@ -9,3 +9,14 @@ C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\
 C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.exe
 C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.pdb
 C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.exe.config
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\bin\Debug\ejercicioTelegrama.exe.config
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\bin\Debug\ejercicioTelegrama.exe
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\bin\Debug\ejercicioTelegrama.pdb
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.csproj.AssemblyReference.cache
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.exe.config
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.Form1.resources
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.Properties.Resources.resources
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.csproj.GenerateResource.cache
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.csproj.CoreCompileInputs.cache
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.exe
+C:\Users\izallorui\source\repos\IzanLlobregatRuiz\practicaGIT\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.pdb
