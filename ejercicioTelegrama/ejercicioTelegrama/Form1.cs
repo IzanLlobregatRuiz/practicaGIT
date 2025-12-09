@@ -24,50 +24,43 @@ namespace ejercicioTelegrama
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string textoTelegrama;
-            char tipoTelegrama;
-            int numPalabras;
-            double coste = 0;
+            // ============================
+            // 1. Leer datos del formulario
+            // ============================
+            string textoTelegrama = txtTelegrama.Text.Trim();
+            bool esUrgente = chkUrgente.Checked;
 
-            //Leo el telegrama
-            textoTelegrama = txtTelegrama.Text.Trim();
-
-            //Determinar tipo
-            if (chkUrgente.Checked)
-                tipoTelegrama = 'u';
-            else
-                tipoTelegrama = 'o';
-
-            //Contar palabras correctamente
+            // ============================
+            // 2. Calcular número de palabras
+            // ============================
             string[] palabras = textoTelegrama.Split(' ');
-            numPalabras = palabras.Length;
+            int numPalabras = palabras.Length;
 
-            //Cálculo del precio
-            if (tipoTelegrama == 'o')  // ORDINARIO
+            // ============================
+            // 3. Definir precios base
+            // ============================
+            double precioBase = esUrgente ? 5.0 : 2.5;
+            double precioExtra = esUrgente ? 0.75 : 0.50;
+
+            // ============================
+            // 4. Calcular coste final
+            // ============================
+            double coste;
+
+            if (numPalabras <= 10)
             {
-                if (numPalabras <= 10)
-                {
-                    coste = 2.5;
-                }
-                else
-                {
-                    coste = 2.5 + 0.5 * (numPalabras - 10);
-                }
+                coste = precioBase;
             }
-            else  // URGENTE
+            else
             {
-                if (numPalabras <= 10)
-                {
-                    coste = 5;
-                }
-                else
-                {
-                    coste = 5 + 0.75 * (numPalabras - 10);
-                }
+                int palabrasExtra = numPalabras - 10;
+                coste = precioBase + (palabrasExtra * precioExtra);
             }
 
-            txtPrecio.Text = coste.ToString() + " euros";
-            // si no funciona lloro :)
+            // ============================
+            // 5. Mostrar resultado
+            // ============================
+            txtPrecio.Text = coste.ToString("0.00") + " euros";
         }
     }
 }
