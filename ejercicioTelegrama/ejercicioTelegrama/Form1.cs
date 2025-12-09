@@ -51,7 +51,7 @@ namespace ejercicioTelegrama
             // ============================
             // 3. Definir precios base
             // ============================
-            double precioBase = esUrgente ? 5.0 : 2.5;
+            double precioBase = esUrgente ? 6.0 : 3.0;
             double precioExtra = esUrgente ? 0.75 : 0.50;
 
             // ============================
