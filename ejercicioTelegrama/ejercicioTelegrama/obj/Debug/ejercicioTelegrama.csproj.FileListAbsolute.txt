@@ -1,0 +1,11 @@
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\bin\Debug\ejercicioTelegrama.exe.config
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\bin\Debug\ejercicioTelegrama.exe
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\bin\Debug\ejercicioTelegrama.pdb
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.csproj.AssemblyReference.cache
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.Form1.resources
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.Properties.Resources.resources
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.csproj.GenerateResource.cache
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.csproj.CoreCompileInputs.cache
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.exe
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.pdb
+C:\Users\vicgommor\source\repos\ejercicioTelegrama\ejercicioTelegrama\obj\Debug\ejercicioTelegrama.exe.config

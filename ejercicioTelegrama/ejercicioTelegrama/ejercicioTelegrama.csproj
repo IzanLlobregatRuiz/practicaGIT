@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{50176020-87C8-4FA1-9774-3B4336411229}</ProjectGuid>
+    <ProjectGuid>{382C0539-A664-4069-8D96-9FFC9D5307CA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ejercicioTelegrama</RootNamespace>
     <AssemblyName>ejercicioTelegrama</AssemblyName>

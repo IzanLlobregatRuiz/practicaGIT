@@ -21,44 +21,5 @@ namespace ejercicioTelegrama
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string textoTelegrama;
-            char tipoTelegrama;
-            int numPalabras;
-            double coste;
-
-            // Leo el telegrama
-            textoTelegrama = txtTelegrama.Text;
-
-            // Determino si es urgente u ordinario
-            tipoTelegrama = chkUrgente.Checked ? 'u' : 'o';
-
-            // Obtengo el número real de palabras
-            numPalabras = textoTelegrama.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Length;
-
-            // Cálculo del coste
-            if (tipoTelegrama == 'o')
-            {
-                if (numPalabras <= 10)
-                    coste = 2.5;
-                else
-                    coste = 0.5 * numPalabras;
-            }
-            else // urgente
-            {
-                if (numPalabras <= 10)
-                    coste = 5;
-                else
-                    coste = 5 + 0.75 * (numPalabras - 10);
-            }
-
-            txtPrecio.Text = coste.ToString("0.00") + " euros";
-        }
-
-
-
     }
-}
 }
